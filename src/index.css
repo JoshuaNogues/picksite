@@ -323,7 +323,7 @@ display: inline-block;
     flex-direction: column;
   }
   .consistency-matters h1 {
-    font-size: 28px;
+    font-size: 36px;
   }
   .img-text {
     display: flex;
@@ -345,7 +345,7 @@ display: inline-block;
     flex-direction: column;
   }
   .testimonials h1, .plans h1 {
-    font-size: 30px;
+    font-size: 36px;
   }
   .testimonials-container, .plans-container {
     display: flex;
