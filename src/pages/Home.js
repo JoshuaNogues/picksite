@@ -68,14 +68,17 @@ const Home = () => {
   <p>See What Our Clients Are Saying</p>
   <div className="testimonials-container">
     <div className="test">
-      <h2>"I WON $500 only with $50!"</h2>
+      <img src="https://thevegasparlay.com/wp-content/uploads/2013/11/parlay-ticket-Bears.jpg" />
+      <h2>"I WON $500 only with $10!"</h2>
       <p>- Jimmy </p>
     </div>
     <div className="test">
+      <img src="https://images.actionnetwork.com/blog/2019/04/betting-ticket-1.jpg" />
       <h2>"I went from about to giving up to winning!"</h2>
       <p>- Matthew </p>
     </div>
     <div className="test">
+      <img src="https://www.reviewjournal.com/wp-content/uploads/2020/12/14615182_web1_Parlaytix.jpg?crop=1" />
       <h2>"LIN DOES IT AGAIN"</h2>
       <p>- Andrew </p>
     </div>

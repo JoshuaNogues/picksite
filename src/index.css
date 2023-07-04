@@ -219,6 +219,12 @@ code {
   width: 100%;
 }
 
+.test img {
+  width: 200px;
+  height: 250px;
+  padding-top: 50px;
+}
+
 
 .plans-container button {
 display: inline-block;
