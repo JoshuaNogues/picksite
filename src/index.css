@@ -42,13 +42,14 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./images/hero.png');
+  background-image: url(https://www.thesportsbetexpert.com/wp-content/themes/astra-child-sbe/../../uploads/background-home-hero-xl.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   padding: 20px;
   text-align: center;
   height: 500px;
+  line-height: 7vh;
 }
 
 .hero h1 {
@@ -57,6 +58,7 @@ code {
   font-size: 5rem;
   margin: 0;
   padding: 0%;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .hero p {
@@ -73,6 +75,12 @@ code {
   margin-top: 50px;
 }
 
+.benefit {
+  background: linear-gradient(to bottom, #00BF63, black) !important;
+  margin: 0 20px;
+  width: 375px !important;
+}
+
 .benefits div {
   width: 30%;
   background-color: #f9f9f9;
@@ -81,15 +89,71 @@ code {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.benefits h3 {
+.benefit h3 {
   font-size: 20px;
-  color: #333;
+  color: white;
   margin-bottom: 10px;
 }
 
-.benefits p {
+.benefit p {
   font-size: 16px;
-  color: #777;
+  color: #d9d9d9;
+}
+
+.consistency-matters {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1350px;
+}
+
+.consistency-matters h1 {
+  font-size: 4rem;
+}
+
+.consistency-matters p {
+  font-size: 20px;
+}
+
+.img-text {
+  display: flex;
+  flex-direction: row;
+}
+
+.winner {
+  width: 500px;
+  border-radius: 10%;
+}
+
+.text-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.get-picks {
+  display: inline-block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #00BF63;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.get-picks:hover {
+  background-color: #00a354;
 }
 
 
