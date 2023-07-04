@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../images/logo.png'
 
 const Home = () => {
   return (
@@ -6,7 +7,7 @@ const Home = () => {
       <div>
         <header className="hero">
           <h1>
-            EXPERT PICKS. <br></br> PROVEN RESULTS.
+            EXPERT PICKS. <br></br> PROVEN RESULTS. <br></br> "LOCK IT IN."
           </h1>
           <p>
             Welcome to Lock It In Picks, your go-to platform for sports betting
@@ -23,17 +24,15 @@ const Home = () => {
         <div className="benefit">
           <h3>Time-saving</h3>
           <p>
-            {" "}
             Our team does the hard work for you, providing you with
-            well-researched picks that you can trust.{" "}
+            well-researched picks that you can
           </p>
         </div>
         <div className="benefit">
           <h3>Increased Winning Potential</h3>
           <p>
-            {" "}
             With our picks, you have access to carefully selected bets that
-            offer favorable odds and higher chances of success.{" "}
+            offer favorable odds and higher chances of s
           </p>
         </div>
       </div>
@@ -51,21 +50,82 @@ const Home = () => {
             />
           </div>
           <div className="text-button">
-            <h2>Win & Win Often</h2>
+            <h2>Win with LIN.</h2>
             <p>
-              At LIN Picks, we excel in delivering exceptional results with our
-              impressive 63% win rate. Week after week, day after day, we
-              consistently achieve profitability, making us a trusted choice for
-              sports bettors seeking reliable and lucrative outcomes.
+              At (Lock It In) <b>LIN Picks</b>, we excel in delivering
+              exceptional results with our impressive <b>67% win rate</b>. Week
+              after week, day after day, we consistently achieve profitability,
+              making us a <b>trusted choice</b> for sports bettors seeking
+              reliable and lucrative outcomes.
             </p>
             <button className="get-picks">Get Picks Now</button>
           </div>
         </div>
       </div>
 
-      <div>
+      <div className="testimonials">
+  <h1>Testimonials</h1>
+  <p>See What Our Clients Are Saying</p>
+  <div className="testimonials-container">
+    <div className="test">
+      <h2>"I WON $500 only with $50!"</h2>
+      <p>- Jimmy </p>
+    </div>
+    <div className="test">
+      <h2>"I went from about to giving up to winning!"</h2>
+      <p>- Matthew </p>
+    </div>
+    <div className="test">
+      <h2>"LIN DOES IT AGAIN"</h2>
+      <p>- Andrew </p>
+    </div>
+  </div>
+</div>
+
+      <div className="plans">
         <h1>Subscription Plans</h1>
+        <p>Sign Up To Start Winning Today</p>
+        <div className="plans-container">
+          <div className="day">
+            <h2>Day</h2>
+            <ul>
+              <li>Get Access To All LIN Picks For a Day</li>
+            </ul>
+            <h3>Price: $10</h3>
+            <button>Sign Up Now</button>
+          </div>
+          <div className="week">
+            <h2>Week</h2>
+            <ul>
+              <li>Get Access To All LIN Picks For a Week</li>
+            </ul>
+            <h3>Price: $20</h3>
+            <button>Sign Up Now</button>
+          </div>
+          <div className="month">
+            <h2>Month</h2>
+            <ul>
+              <li>Get Access To All LIN Picks For a Month</li>
+            </ul>
+            <h3>Price: $30</h3>
+            <button>Sign Up Now</button>
+          </div>
+        </div>
       </div>
+      <div className="footer-above">
+        <img src={Logo} />
+
+      </div>
+      <footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2023 Lock It In Picks. All rights reserved.</p>
+    <ul class="footer-links">
+      <li><a href="#">Terms of Service</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+</footer>
     </div>
   );
 };
