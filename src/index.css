@@ -219,21 +219,6 @@ code {
   width: 100%;
 }
 
-.testimonial {
-  flex: 0 0 100%;
-  animation: testimonialScroll 18s infinite linear;
-  white-space: nowrap;
-}
-
-@keyframes testimonialScroll {
-  0%, 100% {
-    transform: translateX(0);
-  }
-  20%, 80% {
-    transform: translateX(-100%);
-  }
-}
-
 
 .plans-container button {
 display: inline-block;
