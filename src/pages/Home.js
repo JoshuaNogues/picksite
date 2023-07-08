@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from '../images/logo.png'
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
             Welcome to Lock It In Picks, your go-to platform for sports betting
             picks!
           </p>
+          <Link className='get-picks-hero' to="plans" smooth={true} duration={500}>Get Picks</Link>
         </header>
       </div>
 
@@ -24,15 +26,13 @@ const Home = () => {
         <div className="benefit">
           <h3>Time-saving</h3>
           <p>
-            Our team does the hard work for you, providing you with
-            well-researched picks that you can
+            Our team does the hard work for you, providing you with well-researched picks that you can trust.
           </p>
         </div>
         <div className="benefit">
           <h3>Increased Winning Potential</h3>
           <p>
-            With our picks, you have access to carefully selected bets that
-            offer favorable odds and higher chances of s
+            With our picks, you have access to carefully selected bets that offer favorable odds and higher chances of success.
           </p>
         </div>
       </div>
@@ -58,7 +58,7 @@ const Home = () => {
               making us a <b>trusted choice</b> for sports bettors seeking
               reliable and lucrative outcomes.
             </p>
-            <button className="get-picks">Get Picks Now</button>
+            <Link className='get-picks' to="plans" smooth={true} duration={500}>Get Picks</Link>
           </div>
         </div>
       </div>
@@ -122,6 +122,7 @@ const Home = () => {
       <footer class="footer">
   <div class="footer-content">
     <p>&copy; 2023 Lock It In Picks. All rights reserved.</p>
+    <p className="small-footer">LockItIn.com is not responsible for any decisions made, financial or otherwise, based on information or links provided by on LockItIn.com. LockItIn.com does not guarantee winnings and cannot be held liable for losses resulting from the use of information obtained from here. LockItIn.com does not offer bookmaking services or gambling capabilities on its website. LockItIn.com is a sports information website and LockItIn.com is not responsible in any way regarding picks and predictions. If you encounter gambling problems please contact gambling help authorities in your area.</p>
     <ul class="footer-links">
       <li><a href="#">Terms of Service</a></li>
       <li><a href="#">Privacy Policy</a></li>

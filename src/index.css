@@ -49,7 +49,7 @@ code {
   padding: 20px;
   text-align: center;
   height: 500px;
-  line-height: 6vh;
+  line-height: 80px;
 }
 
 .hero h1 {
@@ -140,7 +140,7 @@ code {
   font-size: 3rem;
 }
 
-.get-picks {
+.get-picks, .get-picks-hero {
   display: inline-block;
   margin: 0 auto;
   width: 200px;
@@ -157,7 +157,7 @@ code {
   transition: background-color 0.3s ease;
 }
 
-.get-picks:hover {
+.get-picks:hover, .get-picks-hero:hover {
   background-color: #00a354;
 }
 
@@ -295,6 +295,27 @@ display: inline-block;
   text-decoration: underline;
 }
 
+.small-footer {
+  font-size: x-small;
+  padding: 10px;
+  width: 1000px;
+}
+
+.get-picks-hero {
+  display: none; /* Hide the element by default */
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+@media (min-width: 768px) {
+  .get-picks-hero {
+    display: none !important; /* Hide the element on desktop */
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .navbar-link {
     font-size: 16px;
@@ -305,6 +326,9 @@ display: inline-block;
   }
   .hero p {
     line-height: 3vh;
+  }
+  .get-picks-hero {
+    display: block; /* Show the element on mobile devices */
   }
   .benefits {
     display: flex;
