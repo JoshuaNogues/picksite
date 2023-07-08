@@ -95,7 +95,7 @@ const Home = () => {
               <li>Get Access To All LIN Picks For a Day</li>
             </ul>
             <h3>Price: $10</h3>
-            <button>Sign Up Now</button>
+            <li><a href="https://cash.app/$LINPICKS" className="get-picks" target="_blank" rel="noopener noreferrer">Sign Up Now</a></li>
           </div>
           <div className="week">
             <h2>Week</h2>
@@ -103,7 +103,7 @@ const Home = () => {
               <li>Get Access To All LIN Picks For a Week</li>
             </ul>
             <h3>Price: $20</h3>
-            <button>Sign Up Now</button>
+            <li><a href="https://cash.app/$LINPICKS" className="get-picks" target="_blank" rel="noopener noreferrer">Sign Up Now</a></li>
           </div>
           <div className="month">
             <h2>Month</h2>
@@ -111,7 +111,7 @@ const Home = () => {
               <li>Get Access To All LIN Picks For a Month</li>
             </ul>
             <h3>Price: $30</h3>
-            <button>Sign Up Now</button>
+            <li><a href="https://cash.app/$LINPICKS" className="get-picks" target="_blank" rel="noopener noreferrer">Sign Up Now</a></li>
           </div>
         </div>
       </div>
@@ -123,11 +123,12 @@ const Home = () => {
   <div class="footer-content">
     <p>&copy; 2023 Lock It In Picks. All rights reserved.</p>
     <p className="small-footer">LockItIn.com is not responsible for any decisions made, financial or otherwise, based on information or links provided by on LockItIn.com. LockItIn.com does not guarantee winnings and cannot be held liable for losses resulting from the use of information obtained from here. LockItIn.com does not offer bookmaking services or gambling capabilities on its website. LockItIn.com is a sports information website and LockItIn.com is not responsible in any way regarding picks and predictions. If you encounter gambling problems please contact gambling help authorities in your area.</p>
-    <ul class="footer-links">
-      <li><a href="#">Terms of Service</a></li>
-      <li><a href="#">Privacy Policy</a></li>
-      <li><a href="#">Contact Us</a></li>
-    </ul>
+    
+<ul className="footer-links">
+  <li><Link to="/terms-of-service">Terms of Service</Link></li>
+  <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+  <li><Link to="/contact-us">Contact Us</Link></li>
+</ul>
   </div>
 </footer>
     </div>

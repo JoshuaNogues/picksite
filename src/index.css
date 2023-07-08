@@ -140,6 +140,10 @@ code {
   font-size: 3rem;
 }
 
+li {
+  list-style: none;
+}
+
 .get-picks, .get-picks-hero {
   display: inline-block;
   margin: 0 auto;
