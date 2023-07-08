@@ -399,4 +399,11 @@ display: inline-block;
   .home {
     overflow: hidden;
   }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .small-footer {
+    width: fit-content;
+  }
 }

@@ -127,7 +127,6 @@ const Home = () => {
 <ul className="footer-links">
   <li><Link to="/terms-of-service">Terms of Service</Link></li>
   <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-  <li><Link to="/contact-us">Contact Us</Link></li>
 </ul>
   </div>
 </footer>
